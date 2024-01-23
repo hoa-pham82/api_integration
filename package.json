@@ -1,0 +1,20 @@
+{
+  "name": "integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "staging": "SERVER=staging jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "chai": "^5.0.0",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
