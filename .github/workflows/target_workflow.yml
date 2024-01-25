@@ -1,0 +1,14 @@
+name: Run API test
+
+on:
+  repository_dispatch:
+    types: [trigger-workflow]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Log message
+        run: |
+          echo 'this is test'
